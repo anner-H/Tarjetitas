@@ -1,0 +1,29 @@
+#root{
+    width: 71rem;
+    padding: 2rem;
+    height: auto;
+    border: 3px solid;
+    background-color: rosybrown;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tarjetas{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.2rem;
+    font-size: 5rem;
+    margin: 0.5rem;
+    background-color: darkred;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarjetas:hover{
+    background-color: darksalmon;
+}
